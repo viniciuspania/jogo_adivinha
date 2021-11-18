@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #fff;
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+
+.form label {
+  font-size: 1.2rem;
+}
+
+.form input[type="submit"] {
+  border: 0;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.8rem;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #666;
+}
+
+.form input[type="text"] {
+  border: 0;
+  border: 1px solid #ccc;
+  outline: 0;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.btn-novojogo {
+  border: 0;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.8rem;
+}
+
+.ultimoResultado {
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  padding: 1rem;
+}
+
+.baixoOuAlto {
+  font-size: 1.2rem;
+}
+
+.palpites {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.box-content {
+  border: 0;
+  border-radius: 5px;
+  background-color: #fafbfc;
+  color: #333;
+  margin-top: 10vh;
+  max-width: 60vw;
+  padding: 3rem;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.title p {
+  font-size: 1.2rem;
+}
